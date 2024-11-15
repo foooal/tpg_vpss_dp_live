@@ -1,0 +1,53 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.471654",
+   "Default View_TopLeft":"11,-310",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 580 -y 310 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 4 -x 1490 -y 470 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 5 -x 1870 -y 120 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 6 -x 2220 -y 170 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 320 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -x 1100 -y 340 -defaultsOSRD
+preplace inst rst_ps8_0_187M -pg 1 -lvl 2 -x 580 -y 680 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 5 -x 1870 -y 770 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 7 -x 2510 -y 210 -defaultsOSRD
+preplace inst Const_GND -pg 1 -lvl 5 -x 1870 -y 890 -defaultsOSRD
+preplace inst Const_VCC -pg 1 -lvl 5 -x 1870 -y 990 -defaultsOSRD
+preplace inst v_proc_ss_0 -pg 1 -lvl 5 -x 1870 -y 620 -defaultsOSRD
+preplace netloc Const_GND_dout 1 5 1 2070 190n
+preplace netloc Const_VCC_dout 1 5 1 2060 150n
+preplace netloc clk_wiz_0_clk_out1 1 1 5 200 100 NJ 100 NJ 100 1720 220 2050
+preplace netloc rst_ps8_0_187M_peripheral_aresetn 1 2 3 940 520 1320 380 1660
+preplace netloc v_axi4s_vid_out_0_fifo_read_level 1 6 1 N 240
+preplace netloc v_axi4s_vid_out_0_locked 1 6 1 N 180
+preplace netloc v_axi4s_vid_out_0_overflow 1 6 1 N 200
+preplace netloc v_axi4s_vid_out_0_sof_state_out 1 6 1 N 280
+preplace netloc v_axi4s_vid_out_0_status 1 6 1 N 260
+preplace netloc v_axi4s_vid_out_0_underflow 1 6 1 N 220
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 1 6 220 110 NJ 110 NJ 110 1710J 340 NJ 340 2400
+preplace netloc v_axi4s_vid_out_0_vid_data 1 1 6 240 120 NJ 120 NJ 120 1700J 350 NJ 350 2380
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 1 6 230 10 NJ 10 NJ 10 NJ 10 2040J 380 2390
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 1 6 250 20 NJ 20 NJ 20 NJ 20 2030J 360 2370
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 4 3 1730 390 NJ 390 2410
+preplace netloc zynq_ultra_ps_e_0_dp_video_ref_clk 1 2 5 920 510 1250J 370 NJ 370 NJ 370 2420J
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 20 390 210 130 950 170 1310 350 1690 360 2020
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 2 250 490 910
+preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 1260 330n
+preplace netloc v_tc_0_vtiming_out 1 5 1 N 110
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 2 1 N 230
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 2 1 N 250
+preplace netloc Conn 1 4 1 1680 450n
+preplace netloc v_proc_ss_0_m_axis 1 5 1 2010 90n
+preplace netloc ps8_0_axi_periph_M01_AXI 1 3 2 1250 360 1670J
+levelinfo -pg 1 0 110 580 1100 1490 1870 2220 2510 2600
+pagesize -pg 1 -db -bbox -sgen 0 0 2600 1050
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_clkrst_cnt":"3",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

@@ -1,0 +1,195 @@
+
+
+================================================================
+== Vitis HLS Report for 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_936_2'
+================================================================
+* Date:           Thu Nov 14 14:29:49 2024
+
+* Version:        2023.1 (Build 3854077 on May  4 2023)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu7ev-ffvc1156-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.33 ns|  2.345 ns|     1.44 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    | min |  max |   Type  |
+    +---------+---------+-----------+-----------+-----+------+---------+
+    |        4|     4099|  21.336 ns|  21.864 us|    4|  4099|       no|
+    +---------+---------+-----------+-----------+-----+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+----------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  |   Trip   |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  |   Count  | Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+----------+----------+
+        |- VITIS_LOOP_936_2  |        1|     4096|         2|          1|          1|  1 ~ 4096|       yes|
+        +--------------------+---------+---------+----------+-----------+-----------+----------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 5
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 4 3 
+3 --> 2 
+4 --> 5 
+5 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.42>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%j = alloca i32 1"   --->   Operation 6 'alloca' 'j' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%sub_cast_read = read i13 @_ssdm_op_Read.ap_auto.i13, i13 %sub_cast"   --->   Operation 7 'read' 'sub_cast_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%colorFormat_load_read = read i8 @_ssdm_op_Read.ap_auto.i8, i8 %colorFormat_load"   --->   Operation 8 'read' 'colorFormat_load_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%width_load_cast1_read = read i13 @_ssdm_op_Read.ap_auto.i13, i13 %width_load_cast1"   --->   Operation 9 'read' 'width_load_cast1_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%sof_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %sof"   --->   Operation 10 'read' 'sof_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%sub_cast_cast = sext i13 %sub_cast_read"   --->   Operation 11 'sext' 'sub_cast_cast' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln0 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i24 %m_axis_video_V_data_V, i3 %m_axis_video_V_keep_V, i3 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V, void @empty_35"   --->   Operation 12 'specaxissidechannel' 'specaxissidechannel_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %m_axis_video_V_dest_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_user_V, i3 %m_axis_video_V_strb_V, i3 %m_axis_video_V_keep_V, i24 %m_axis_video_V_data_V, void @empty_9, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_33, void @empty_33, void @empty_33, i32 0, i32 0, i32 0, i32 0, void @empty_33, void @empty_33, i32 4294967295, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %ovrlayYUV, void @empty_22, i32 0, i32 0, void @empty_33, i32 0, i32 0, void @empty_33, void @empty_33, void @empty_33, i32 0, i32 0, i32 0, i32 0, void @empty_33, void @empty_33, i32 4294967295, i32 0"   --->   Operation 14 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.42ns)   --->   "%store_ln0 = store i13 0, i13 %j"   --->   Operation 15 'store' 'store_ln0' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 16 [1/1] (0.42ns)   --->   "%br_ln0 = br void %for.body22"   --->   Operation 16 'br' 'br_ln0' <Predicate = true> <Delay = 0.42>
+
+State 2 <SV = 1> <Delay = 1.24>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%sof_2 = phi i1 0, void %for.body45_ifconv, i1 %sof_read, void %newFuncRoot"   --->   Operation 17 'phi' 'sof_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%phi_ln991 = phi i1 %trunc_ln963, void %for.body45_ifconv, i1 0, void %newFuncRoot" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:991]   --->   Operation 18 'phi' 'phi_ln991' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%j_1 = load i13 %j" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 19 'load' 'j_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%zext_ln936 = zext i13 %j_1" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 20 'zext' 'zext_ln936' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.82ns)   --->   "%icmp_ln936 = icmp_eq  i13 %j_1, i13 %width_load_cast1_read" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 21 'icmp' 'icmp_ln936' <Predicate = true> <Delay = 0.82> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.82> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 1, i64 4096, i64 0"   --->   Operation 22 'speclooptripcount' 'speclooptripcount_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.82ns)   --->   "%j_2 = add i13 %j_1, i13 1" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 23 'add' 'j_2' <Predicate = true> <Delay = 0.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%br_ln936 = br i1 %icmp_ln936, void %for.body22.split, void %for.inc114.loopexit.exitStub" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 24 'br' 'br_ln936' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%specpipeline_ln939 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_33" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:939]   --->   Operation 25 'specpipeline' 'specpipeline_ln939' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%specloopname_ln936 = specloopname void @_ssdm_op_SpecLoopName, void @empty_34" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 26 'specloopname' 'specloopname_ln936' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.82ns)   --->   "%axi_last = icmp_eq  i14 %zext_ln936, i14 %sub_cast_cast" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:949]   --->   Operation 27 'icmp' 'axi_last' <Predicate = (!icmp_ln936)> <Delay = 0.82> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.82> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 28 [1/1] (0.00ns)   --->   "%br_ln958 = br i1 %sof_2, void %for.body45_ifconv, void %if.then35" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:958]   --->   Operation 28 'br' 'br_ln958' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%counter_loc_1_out_load = load i16 %counter_loc_1_out" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:960]   --->   Operation 29 'load' 'counter_loc_1_out_load' <Predicate = (!icmp_ln936 & sof_2)> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.85ns)   --->   "%add_ln960 = add i16 %counter_loc_1_out_load, i16 1" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:960]   --->   Operation 30 'add' 'add_ln960' <Predicate = (!icmp_ln936 & sof_2)> <Delay = 0.85> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.85> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%store_ln960 = store i16 %add_ln960, i16 %counter" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:960]   --->   Operation 31 'store' 'store_ln960' <Predicate = (!icmp_ln936 & sof_2)> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%store_ln961 = store i16 %add_ln960, i16 %counter_loc_1_out" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:961]   --->   Operation 32 'store' 'store_ln961' <Predicate = (!icmp_ln936 & sof_2)> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "%br_ln961 = br void %for.body45_ifconv" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:961]   --->   Operation 33 'br' 'br_ln961' <Predicate = (!icmp_ln936 & sof_2)> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (0.76ns)   --->   "%icmp_ln975 = icmp_eq  i8 %colorFormat_load_read, i8 0" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:975]   --->   Operation 34 'icmp' 'icmp_ln975' <Predicate = (!icmp_ln936)> <Delay = 0.76> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 35 [1/1] (0.42ns)   --->   "%store_ln936 = store i13 %j_2, i13 %j" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 35 'store' 'store_ln936' <Predicate = (!icmp_ln936)> <Delay = 0.42>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%br_ln936 = br void %for.body22" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936]   --->   Operation 36 'br' 'br_ln936' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 2.34>
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%counter_loc_1_out_load_1 = load i16 %counter_loc_1_out" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963]   --->   Operation 37 'load' 'counter_loc_1_out_load_1' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%trunc_ln963 = trunc i16 %counter_loc_1_out_load_1" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963]   --->   Operation 38 'trunc' 'trunc_ln963' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 39 [1/1] (1.94ns)   --->   "%ovrlayYUV_read = read i24 @_ssdm_op_Read.ap_fifo.volatile.i24P0A, i24 %ovrlayYUV" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963]   --->   Operation 39 'read' 'ovrlayYUV_read' <Predicate = (!icmp_ln936)> <Delay = 1.94> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.04> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 24> <Depth = 16> <FIFO>
+ST_3 : Operation 40 [1/1] (0.00ns)   --->   "%pix_444 = trunc i24 %ovrlayYUV_read" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963]   --->   Operation 40 'trunc' 'pix_444' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%pix_rgb_2 = partselect i8 @_ssdm_op_PartSelect.i8.i24.i32.i32, i24 %ovrlayYUV_read, i32 8, i32 15" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963]   --->   Operation 41 'partselect' 'pix_rgb_2' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%pix_rgb = partselect i8 @_ssdm_op_PartSelect.i8.i24.i32.i32, i24 %ovrlayYUV_read, i32 16, i32 23" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963]   --->   Operation 42 'partselect' 'pix_rgb' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%axi_data = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i1.i8, i1 1, i8 %pix_444" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:984]   --->   Operation 43 'bitconcatenate' 'axi_data' <Predicate = (!icmp_ln936 & !icmp_ln975)> <Delay = 0.00>
+ST_3 : Operation 44 [1/1] (0.00ns)   --->   "%axi_data_1 = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i1.i8, i1 1, i8 %pix_rgb_2" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:978]   --->   Operation 44 'bitconcatenate' 'axi_data_1' <Predicate = (!icmp_ln936 & icmp_ln975)> <Delay = 0.00>
+ST_3 : Operation 45 [1/1] (0.39ns)   --->   "%axi_data_2 = select i1 %icmp_ln975, i9 %axi_data_1, i9 %axi_data" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:975]   --->   Operation 45 'select' 'axi_data_2' <Predicate = (!icmp_ln936)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "%sext_ln880 = sext i9 %axi_data_2" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:880]   --->   Operation 46 'sext' 'sext_ln880' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 47 [1/1] (0.39ns)   --->   "%select_ln975 = select i1 %icmp_ln975, i8 %pix_rgb, i8 %pix_rgb_2" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:975]   --->   Operation 47 'select' 'select_ln975' <Predicate = (!icmp_ln936)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 48 [1/1] (0.39ns)   --->   "%select_ln975_1 = select i1 %icmp_ln975, i8 %pix_444, i8 %pix_rgb" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:975]   --->   Operation 48 'select' 'select_ln975_1' <Predicate = (!icmp_ln936)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 49 [1/1] (0.00ns)   --->   "%tmp = bitconcatenate i16 @_ssdm_op_BitConcatenate.i16.i8.i8, i8 %select_ln975_1, i8 %select_ln975" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:975]   --->   Operation 49 'bitconcatenate' 'tmp' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 50 [1/1] (0.00ns)   --->   "%axi_data_3 = partset i24 @_ssdm_op_PartSet.i24.i24.i16.i32.i32, i24 %sext_ln880, i16 %tmp, i32 8, i32 23" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:975]   --->   Operation 50 'partset' 'axi_data_3' <Predicate = (!icmp_ln936)> <Delay = 0.00>
+ST_3 : Operation 51 [1/1] (0.00ns)   --->   "%write_ln990 = write void @_ssdm_op_Write.axis.volatile.i24P0A.i3P0A.i3P0A.i1P0A.i1P0A.i1P0A.i1P0A, i24 %m_axis_video_V_data_V, i3 %m_axis_video_V_keep_V, i3 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V, i24 %axi_data_3, i3 7, i3 0, i1 %sof_2, i1 %axi_last, i1 0, i1 0" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:990]   --->   Operation 51 'write' 'write_ln990' <Predicate = (!icmp_ln936)> <Delay = 0.00> <CoreInst = "axis">   --->   Core 123 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+
+State 4 <SV = 2> <Delay = 0.00>
+ST_4 : Operation 52 [1/1] (0.00ns)   --->   "%write_ln991 = write void @_ssdm_op_Write.ap_auto.i1P0A, i1 %phi_ln991_out, i1 %phi_ln991" [C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:991]   --->   Operation 52 'write' 'write_ln991' <Predicate = true> <Delay = 0.00>
+
+State 5 <SV = 3> <Delay = 0.00>
+ST_5 : Operation 53 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 53 'ret' 'ret_ln0' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5.334ns, clock uncertainty: 1.440ns.
+
+ <State 1>: 0.427ns
+The critical path consists of the following:
+	'alloca' operation ('j') [16]  (0.000 ns)
+	'store' operation ('store_ln0') of constant 0 on local variable 'j' [25]  (0.427 ns)
+
+ <State 2>: 1.247ns
+The critical path consists of the following:
+	'load' operation ('j', C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936) on local variable 'j' [30]  (0.000 ns)
+	'add' operation ('j', C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936) [34]  (0.820 ns)
+	'store' operation ('store_ln936', C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936) of variable 'j', C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:936 on local variable 'j' [64]  (0.427 ns)
+
+ <State 3>: 2.345ns
+The critical path consists of the following:
+	fifo read operation ('ovrlayYUV_read', C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963) on port 'ovrlayYUV' (C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:963) [50]  (1.947 ns)
+	'select' operation ('axi.data', C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:975) [57]  (0.398 ns)
+
+ <State 4>: 0.000ns
+The critical path consists of the following:
+
+ <State 5>: 0.000ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

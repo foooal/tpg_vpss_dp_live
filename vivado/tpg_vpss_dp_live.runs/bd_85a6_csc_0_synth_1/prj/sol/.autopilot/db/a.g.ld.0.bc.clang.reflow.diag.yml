@@ -1,0 +1,2507 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                   Line: 71, Column: 2 }
+Function:        _ZN3hls15AXIGetBitFieldsILi24E7ap_uintILi8EEEEvNS_4axisIS1_IXT_EELm1ELm1ELm1EEEiiRT0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(ap_uint<24>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 46, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 69, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 472, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 469, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 528, Column: 6 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 69, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 469, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 527, Column: 6 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 69, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 469, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 526, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 69, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 469, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                   Line: 874, Column: 2 }
+Function:        _ZN3hls10LineBufferILi2ELi3840E7ap_uintILi8EELi0EE13insert_bottomES2_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 3840, ap_uint<8>, 0>::insert_top_row(ap_uint<8>, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 788, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::LineBuffer<2, 3840, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 872, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                   Line: 874, Column: 2 }
+Function:        _ZN3hls10LineBufferILi3ELi3840E7ap_uintILi8EELi0EE13insert_bottomES2_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 3840, ap_uint<8>, 0>::insert_top_row(ap_uint<8>, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 788, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::LineBuffer<3, 3840, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 872, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 914, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 3840, ap_uint<8>, 0>::LineBuffer()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 623, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1064, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 3840, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 872, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1047, Column: 29 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 3840, ap_uint<8>, 0>::getval(int, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 833, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1018, Column: 28 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 3840, ap_uint<8>, 0>::getval(int, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 833, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 994, Column: 14 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 3840, ap_uint<8>, 0>::insert_bottom(ap_uint<8>, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 872, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 979, Column: 28 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<2, 3840, ap_uint<8>, 0>::getval(int, int)'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 833, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 930, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 929, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 923, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 922, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 920, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 919, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 918, Column: 18 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 917, Column: 18 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 915, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::LineBuffer<3, 3840, ap_uint<8>, 0>::LineBuffer()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                       Line: 623, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_vcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 905, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 690, Column: 18 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 701, Column: 37 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 701, Column: 10 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 700, Column: 10 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 693, Column: 25 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 693, Column: 16 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 692, Column: 16 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<1, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 691, Column: 18 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_hcresampler_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char const&, bool, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 679, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 82, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_csc_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 59, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 83, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_csc_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 59, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 570, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 568, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            dstPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            srcPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_cb
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_cr
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_cb
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_cr
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            inpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                   Line: 625, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            linebuf_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            PixBufVal
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            CBufVal
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                   Line: 625, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            linebuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            dstPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            srcPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_cb
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_cr
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_cb
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_cr
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            inpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                   Line: 625, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            linebuf_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            mpix_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pixbuf_c
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            PixBufVal
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            CBufVal
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_mem.h', 
+                   Line: 625, Column: 9 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Adding '''
+  - Name:            linebuf_y
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'd:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_proc_ss_0_0/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 472, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 930, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            CBufVal
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 929, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            PixBufVal
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 923, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pixbuf_c
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 922, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pixbuf_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 920, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            mpix_c
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 919, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            mpix_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 918, Column: 18 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 917, Column: 18 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 915, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            linebuf_c
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 914, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            linebuf_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 701, Column: 37 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pixbuf_cr
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 701, Column: 10 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pixbuf_cb
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 700, Column: 10 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pixbuf_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 693, Column: 25 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            mpix_cr
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 693, Column: 16 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            mpix_cb
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 692, Column: 16 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            mpix_y
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 691, Column: 18 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 690, Column: 18 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            inpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 83, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            dstPix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 82, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            srcPix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 570, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 643, Column: 22 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_643_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 645, Column: 23 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_645_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 97, Column: 21 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 736, Column: 23 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_736_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 760, Column: 20 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_760_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 765, Column: 22 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_765_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 781, Column: 22 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_781_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 795, Column: 24 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_795_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 816, Column: 24 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_816_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 824, Column: 22 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_824_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 967, Column: 23 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_967_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 977, Column: 20 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_977_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 980, Column: 23 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_980_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 989, Column: 22 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_989_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 997, Column: 22 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_997_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1004, Column: 24 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1004_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1016, Column: 23 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1016_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1019, Column: 25 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1019_10
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1048, Column: 25 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1048_11
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1059, Column: 26 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1059_12
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1066, Column: 25 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1066_13
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1073, Column: 26 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1073_14
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1082, Column: 24 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1082_15
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 518, Column: 22 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_518_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 520, Column: 23 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_520_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 568, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_643_3
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:643:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 568, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_645_4
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:645:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 59, Column: 0 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_3
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:97:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_csc_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 679, Column: 0 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_736_3
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:736:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_hcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 679, Column: 0 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_760_4
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:760:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_hcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 679, Column: 0 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_765_5
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:765:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_hcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 679, Column: 0 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_781_6
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:781:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_hcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 679, Column: 0 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_816_8
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:816:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_hcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 679, Column: 0 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_795_7
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:795:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_hcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 679, Column: 0 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_824_9
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:824:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_hcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_967_3
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:967:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_977_4
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:977:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_980_5
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:980:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_980_5
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:980:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_989_6
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:989:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_997_7
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:997:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1004_8
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1004:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1016_9
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1016:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1019_10
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1019:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1019_10
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1019:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1048_11
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1048:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1059_12
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1059:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1066_13
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1066:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1073_14
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1073:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 905, Column: 0 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1082_15
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:1082:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_vcresampler_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 469, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_518_1
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:518:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 469, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_520_2
+  - String:          ''' ('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:520:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 914, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.56
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuf_y
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 915, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.56
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuf_c
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 700, Column: 10 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.57
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          pixbuf_y
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.57
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 700, Column: 10 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          pixbuf_y
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 914, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuf_y
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 915, Column: 16 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          linebuf_c
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 389, Column: 24 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERhS7_RtS8_S8_S8_S8_S8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S9_S9_S9_S9_S9_S9_S9_S9_S9_SC_SC_SC_SE_SE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_csc
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 388, Column: 24 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERhS7_RtS8_S8_S8_S8_S8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S9_S9_S9_S9_S9_S9_S9_S9_S9_SC_SC_SC_SE_SE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_in_hresampled
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 388, Column: 46 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERhS7_RtS8_S8_S8_S8_S8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S9_S9_S9_S9_S9_S9_S9_S9_S9_SC_SC_SC_SE_SE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_out_hresampled
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 387, Column: 24 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERhS7_RtS8_S8_S8_S8_S8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S9_S9_S9_S9_S9_S9_S9_S9_S9_SC_SC_SC_SE_SE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_in_vresampled
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 387, Column: 46 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERhS7_RtS8_S8_S8_S8_S8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S9_S9_S9_S9_S9_S9_S9_S9_S9_SC_SC_SC_SE_SE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_out_vresampled
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 386, Column: 24 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERhS7_RtS8_S8_S8_S8_S8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S9_S9_S9_S9_S9_S9_S9_S9_S9_SC_SC_SC_SE_SE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_in
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 488, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_start
+  - String:          ' '
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:488:2'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 469, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 545, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_eol
+  - String:          ' '
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:545:3'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 469, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 91, Column: 20 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_S7_S7_S7_S7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S8_S8_S8_S8_S8_S8_S8_S8_S8_SB_SB_SB_SC_SC_S6_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_91_2
+  - String:          ' '
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:91:20'
+  - String:          ' '
+  - Function:        'v_csc_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 59, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 545, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_eol
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:545:3'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 488, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_start
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:488:2'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1129, Column: 13 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.else398
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_955_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:955:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1127, Column: 13 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then397
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_955_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:955:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 882, Column: 13 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.else470
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_724_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:724:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 880, Column: 13 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then469
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_724_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:724:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1129, Column: 13 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.56
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.else398
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_955_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:955:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 1127, Column: 13 }
+Function:        _ZL18v_vcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.56
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then397
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_955_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:955:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 882, Column: 13 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.57
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.else470
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_724_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:724:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 880, Column: 13 }
+Function:        _ZL18v_hcresampler_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RKhbS6_.57
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then469
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_724_2
+  - String:          '''('
+  - LoopLoc:         'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp:724:21'
+  - String:          ') .'
+...

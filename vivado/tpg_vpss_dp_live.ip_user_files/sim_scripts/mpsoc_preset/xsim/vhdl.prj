@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/mpsoc_preset/ip/mpsoc_preset_v_tc_0_0/sim/mpsoc_preset_v_tc_0_0.vhd" \
+"../../../bd/mpsoc_preset/ip/mpsoc_preset_rst_ps8_0_187M_0/sim/mpsoc_preset_rst_ps8_0_187M_0.vhd" \
+
+# Do not sort compile order
+nosort

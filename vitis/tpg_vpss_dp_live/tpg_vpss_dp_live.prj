@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="tpg_vpss_dp_live" location="C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live" platform="C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/mpsoc_preset_wrapper.xpfm" platformUID="xilinx:zcu106::0.0(custom)" systemProject="tpg_vpss_dp_live_system" sysConfig="mpsoc_preset_wrapper" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="8b5b321b8fea8b3283e271f895116f79">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.652742469">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1341935744" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

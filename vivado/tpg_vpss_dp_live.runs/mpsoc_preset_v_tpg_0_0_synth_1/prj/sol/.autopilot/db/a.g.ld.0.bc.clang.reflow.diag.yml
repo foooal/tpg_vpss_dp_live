@@ -1,0 +1,2631 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1025, Column: 18 }
+Function:        _Z24tpgPatternHorizontalRamptth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternHorizontalRamp(unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1023, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1048, Column: 18 }
+Function:        _Z22tpgPatternVerticalRampttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternVerticalRamp(unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1046, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1072, Column: 18 }
+Function:        _Z22tpgPatternTemporalRampth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternTemporalRamp(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1071, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1087, Column: 18 }
+Function:        _Z18tpgPatternSolidRedth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternSolidRed(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1086, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1108, Column: 18 }
+Function:        _Z20tpgPatternSolidGreenth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternSolidGreen(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1107, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1129, Column: 18 }
+Function:        _Z19tpgPatternSolidBlueth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternSolidBlue(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1128, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1150, Column: 18 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1149, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1172, Column: 18 }
+Function:        _Z20tpgPatternSolidWhiteth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternSolidWhite(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1170, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1192, Column: 18 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternColorBars(unsigned short, unsigned short, unsigned char, int)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1191, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1284, Column: 18 }
+Function:        _Z19tpgPatternZonePlatettttttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternZonePlate(unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1277, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1326, Column: 18 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternTartanColorBars(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1325, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1354, Column: 13 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternTartanColorBars(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1325, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1394, Column: 18 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternCrossHatch(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1393, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1230, Column: 18 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternRainbow(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1229, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1485, Column: 18 }
+Function:        _Z32tpgPatternVerticalHorizontalRampttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternVerticalHorizontalRamp(unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1483, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1508, Column: 18 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternCheckerBoard(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1507, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1780, Column: 18 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1779, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1576, Column: 18 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternDPColorRamp(unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1574, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1576, Column: 23 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternDPColorRamp(unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1574, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1675, Column: 18 }
+Function:        _Z34tpgPatternDPBlackWhiteVerticalLinet
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternDPBlackWhiteVerticalLine(unsigned short)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1674, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1691, Column: 18 }
+Function:        _Z23tpgPatternDPColorSquaretthhh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternDPColorSquare(unsigned short, unsigned short, unsigned char, unsigned char, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1690, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 507, Column: 18 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 508, Column: 18 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1940, Column: 18 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi3E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternMask(hls::Scalar<3, ap_uint<8> >, unsigned char, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1939, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 723, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 717, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 724, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 717, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 725, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 717, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 878, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 182, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul>, 0>&, unsigned short&, unsigned short&, unsigned char&, bool&, bool&, unsigned short&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 876, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            intpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi3E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z23tpgPatternDPColorSquaretthhh
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp43
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z34tpgPatternDPBlackWhiteVerticalLinet
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp41
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp39
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Adding '''
+  - Name:            tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp37
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp35
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z32tpgPatternVerticalHorizontalRampttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp33
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp31
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp29
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Adding '''
+  - Name:            pixTartan
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp27
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z19tpgPatternZonePlatettttttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp25
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp23
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z20tpgPatternSolidWhiteth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp21
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp19
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z19tpgPatternSolidBlueth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp17
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z20tpgPatternSolidGreenth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp15
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z18tpgPatternSolidRedth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z22tpgPatternTemporalRampth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp11
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z22tpgPatternVerticalRampttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp9
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z24tpgPatternHorizontalRamptth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 758, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 676, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp43
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 669, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp41
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 662, Column: 23 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp39
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 658, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp37
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 652, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp35
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 644, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp33
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 636, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp31
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 628, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp29
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 620, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp27
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 612, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp25
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 604, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp23
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 596, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp21
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 588, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp19
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 580, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp17
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 572, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp15
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 564, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 556, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp11
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 548, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp9
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 540, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            intpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 184, Column: 9 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Adding '''
+  - Name:            tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1576, Column: 18 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            tmp
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp43
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp41
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp39
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp37
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp35
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp33
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp31
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp29
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp27
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp25
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp23
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp21
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp19
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp17
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp15
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp13
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp11
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp9
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 507, Column: 18 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp13
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 725, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 724, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            intpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 723, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 878, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 966, Column: 22 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_966_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 968, Column: 23 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_968_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1942, Column: 21 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi3E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1942_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1916, Column: 21 }
+Function:        _Z19tpgPatternCrossHairN3hls6ScalarILi3E7ap_uintILi8EEEEtttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1916_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1885, Column: 21 }
+Function:        _Z13tpgPatternBoxN3hls6ScalarILi3E7ap_uintILi8EEEEttttttttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1885_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1716, Column: 21 }
+Function:        _Z23tpgPatternDPColorSquaretthhh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1716_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1679, Column: 21 }
+Function:        _Z34tpgPatternDPBlackWhiteVerticalLinet
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1679_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1590, Column: 21 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1590_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1788, Column: 21 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1788_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1533, Column: 21 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1533_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1490, Column: 21 }
+Function:        _Z32tpgPatternVerticalHorizontalRampttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1490_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1232, Column: 21 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1232_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1420, Column: 21 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1420_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1351, Column: 21 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1351_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1304, Column: 21 }
+Function:        _Z19tpgPatternZonePlatettttttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1304_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1198, Column: 21 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1198_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1173, Column: 21 }
+Function:        _Z20tpgPatternSolidWhiteth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1173_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1151, Column: 21 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1151_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1130, Column: 21 }
+Function:        _Z19tpgPatternSolidBlueth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1130_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1109, Column: 21 }
+Function:        _Z20tpgPatternSolidGreenth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1109_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1088, Column: 21 }
+Function:        _Z18tpgPatternSolidRedth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1088_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1073, Column: 21 }
+Function:        _Z22tpgPatternTemporalRampth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1073_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1058, Column: 21 }
+Function:        _Z22tpgPatternVerticalRampttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1058_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1030, Column: 21 }
+Function:        _Z24tpgPatternHorizontalRamptth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1030_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 876, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_966_3
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:966:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 876, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_968_4
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:968:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1939, Column: 0 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi3E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1942_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1942:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternMask
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1913, Column: 0 }
+Function:        _Z19tpgPatternCrossHairN3hls6ScalarILi3E7ap_uintILi8EEEEtttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1916_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1916:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternCrossHair
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1826, Column: 0 }
+Function:        _Z13tpgPatternBoxN3hls6ScalarILi3E7ap_uintILi8EEEEttttttttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1885_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1885:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternBox
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1690, Column: 0 }
+Function:        _Z23tpgPatternDPColorSquaretthhh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1716_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1716:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternDPColorSquare
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1674, Column: 0 }
+Function:        _Z34tpgPatternDPBlackWhiteVerticalLinet
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1679_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1679:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternDPBlackWhiteVerticalLine
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1574, Column: 0 }
+Function:        _Z21tpgPatternDPColorRamptth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1590_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1590:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternDPColorRamp
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1779, Column: 0 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1788_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1788:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPRBS
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1507, Column: 0 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1533_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1533:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternCheckerBoard
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1483, Column: 0 }
+Function:        _Z32tpgPatternVerticalHorizontalRampttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1490_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1490:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternVerticalHorizontalRamp
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1229, Column: 0 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1232_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1232:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternRainbow
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1393, Column: 0 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1420_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1420:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternCrossHatch
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1325, Column: 0 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1351_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1351:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternTartanColorBars
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1277, Column: 0 }
+Function:        _Z19tpgPatternZonePlatettttttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1304_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1304:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternZonePlate
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1191, Column: 0 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1198_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1198:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternColorBars
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1170, Column: 0 }
+Function:        _Z20tpgPatternSolidWhiteth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1173_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1173:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternSolidWhite
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1149, Column: 0 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1151_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1151:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternSolidBlack
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1128, Column: 0 }
+Function:        _Z19tpgPatternSolidBlueth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1130_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1130:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternSolidBlue
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1107, Column: 0 }
+Function:        _Z20tpgPatternSolidGreenth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1109_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1109:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternSolidGreen
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1086, Column: 0 }
+Function:        _Z18tpgPatternSolidRedth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1088_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1088:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternSolidRed
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1071, Column: 0 }
+Function:        _Z22tpgPatternTemporalRampth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1073_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1073:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternTemporalRamp
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1046, Column: 0 }
+Function:        _Z22tpgPatternVerticalRampttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1058_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1058:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternVerticalRamp
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1023, Column: 0 }
+Function:        _Z24tpgPatternHorizontalRamptth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1030_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1030:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternHorizontalRamp
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternHorizontalRamp(unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1023, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternVerticalRamp(unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1046, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternTemporalRamp(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1071, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternSolidRed(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1086, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternSolidGreen(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1107, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternSolidBlue(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1128, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1149, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternSolidWhite(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1170, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternColorBars(unsigned short, unsigned short, unsigned char, int)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1191, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternZonePlate(unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1277, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternTartanColorBars(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1325, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternRainbow(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1229, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternVerticalHorizontalRamp(unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1483, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternCheckerBoard(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1507, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1779, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternDPColorRamp(unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1574, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 503, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternDPBlackWhiteVerticalLine(unsigned short)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1674, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 717, Column: 0 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternBox(hls::Scalar<3, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1826, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 717, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 717, Column: 0 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternCrossHair(hls::Scalar<3, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1913, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 717, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 717, Column: 0 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternMask(hls::Scalar<3, ap_uint<8> >, unsigned char, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1939, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 717, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1576, Column: 18 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          tmp.i
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp29
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp43
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1940, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp13
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 280, Column: 22 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEES0_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            ovrlayYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 279, Column: 22 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEES0_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            bckgndYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 676, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          sw.bb42
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_520_2
+  - String:          '''('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:520:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 628, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          sw.bb28
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_520_2
+  - String:          '''('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:520:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1302, Column: 18 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          _Z19tpgPatternZonePlatettttttth.exit
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_520_2
+  - String:          '''('
+  - LoopLoc:         'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:520:21'
+  - String:          ') .'
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 676, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternDPColorSquare(unsigned short, unsigned short, unsigned char, unsigned char, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1690, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 628, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi3E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternCrossHatch(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1393, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 503, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEES0_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=5 variable=tpgSinTableArray_9bit'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  v_tpg
+  - String:          ' '
+  - varLoc:          'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src\v_tpg_zoneplate.h:2106:0'
+  - String:          ' '
+  - PragmaSrcLoc:    'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:523:9'
+    DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 523, Column: 9 }
+  - VarName:         tpgSinTableArray_9bit
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: 'C:/Users/shen/Downloads/vitis_2/dp_live/dp_live.runs/mpsoc_preset_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 523, Column: 9 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEES0_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '5'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            tpgSinTableArray_9bit
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'c:/Users/shen/Downloads/vitis_2/dp_live/dp_live.gen/sources_1/bd/mpsoc_preset/ip/mpsoc_preset_v_tpg_0_0/src\v_tpg_zoneplate.h', 
+                   Line: 2106, Column: 0 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi24EELm1ELm1ELm1EEELi0EEES0_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          tpgSinTableArray_9bit
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '5'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...

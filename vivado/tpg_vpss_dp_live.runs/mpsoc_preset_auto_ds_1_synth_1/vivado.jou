@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Nov 15 11:03:08 2024
+# Process ID: 20732
+# Current directory: D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/mpsoc_preset_auto_ds_1_synth_1
+# Command line: vivado.exe -log mpsoc_preset_auto_ds_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mpsoc_preset_auto_ds_1.tcl
+# Log file: D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/mpsoc_preset_auto_ds_1_synth_1/mpsoc_preset_auto_ds_1.vds
+# Journal file: D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/mpsoc_preset_auto_ds_1_synth_1\vivado.jou
+# Running On: DESKTOP-S07ATB7, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34059 MB
+#-----------------------------------------------------------
+source mpsoc_preset_auto_ds_1.tcl -notrace

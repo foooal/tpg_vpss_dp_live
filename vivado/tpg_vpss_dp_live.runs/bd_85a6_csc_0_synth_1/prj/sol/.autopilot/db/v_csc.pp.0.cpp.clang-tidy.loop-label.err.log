@@ -1,0 +1,3 @@
+26 errors generated.
+Error while processing D:\dp\zcu106\tpg_dp_live\vivado\tpg_dp_live\tpg_dp_live.runs\bd_85a6_csc_0_synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp.
+clang-tidy applied 373 of 373 suggested fixes.

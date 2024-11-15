@@ -1,0 +1,20 @@
+---
+MainSourceFile:  'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '393:9'
+    FilePath:        'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '393:9'
+    FilePath:        'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '393:9'
+    FilePath:        'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-12] There are a total of 32 such instances of non-canonical statements in the dataflow region'
+    FileOffset:      '393:9'
+    FilePath:        'D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/.autopilot/db/v_csc.cpp'
+...

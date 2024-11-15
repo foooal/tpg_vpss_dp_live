@@ -1,0 +1,10 @@
+13:40:35 **** Build of configuration Debug for project tpg_vpss_dp_live_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 7337 C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/mpsoc_preset_wrapper.xpfm standalone_psu_cortexa53_0 C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/mpsoc_preset_wrapper.xpfm --sys_config mpsoc_preset_wrapper --bif C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live_system/Debug/system.bif --bitstream C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live/_ide/bitstream/mpsoc_preset_wrapper.bit --elf C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live/Debug/tpg_vpss_dp_live.elf,psu_cortexa53_0
+creating BOOT.BIN using C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live/_ide/bitstream/mpsoc_preset_wrapper.bit
+Running D:/program/Xilinx2023/Vitis/2023.1/bin/bootgen -arch zynqmp -image C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+13:40:43 Build Finished (took 8s.83ms)
+

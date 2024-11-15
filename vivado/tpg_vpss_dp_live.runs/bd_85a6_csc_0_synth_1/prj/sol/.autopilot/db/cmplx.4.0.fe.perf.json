@@ -1,0 +1,131 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "7 8 2 1 4 3 5",
+    "file": "v_csc.cpp",
+    "fileloc": 175,
+    "instructions": 337,
+    "loads": {
+      "T": 36
+    },
+    "name": "v_csc",
+    "stores": {
+      "L": 40
+    },
+    "total_instructions": 1854
+  },
+  "1": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 46,
+    "instructions": 220,
+    "loads": {
+      "L": 35
+    },
+    "name": "v_csc_core",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 220
+  },
+  "2": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 677,
+    "instructions": 274,
+    "loads": {
+      "L": 4
+    },
+    "name": "v_hcresampler_core",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 274
+  },
+  "3": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 903,
+    "instructions": 214,
+    "loads": {
+      "L": 9
+    },
+    "name": "v_vcresampler_core",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 214
+  },
+  "4": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 677,
+    "instructions": 274,
+    "loads": {
+      "L": 4
+    },
+    "name": "v_hcresampler_core",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 274
+  },
+  "5": {
+    "basicblocks": 27,
+    "calls": "6 6",
+    "file": "v_csc.cpp",
+    "fileloc": 566,
+    "instructions": 120,
+    "loads": {
+      "L": 4
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "L": 14
+    },
+    "total_instructions": 128
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 248,
+    "instructions": 4,
+    "name": "reg<unsigned short>",
+    "total_instructions": 4
+  },
+  "7": {
+    "basicblocks": 23,
+    "calls": "6 6",
+    "file": "v_csc.cpp",
+    "fileloc": 467,
+    "instructions": 185,
+    "loads": {
+      "L": 24
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "stores": {
+      "L": 22
+    },
+    "total_instructions": 193
+  },
+  "8": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 903,
+    "instructions": 214,
+    "loads": {
+      "L": 9
+    },
+    "name": "v_vcresampler_core",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 214
+  }
+}

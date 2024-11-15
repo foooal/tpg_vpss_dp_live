@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Nov 15 11:03:21 2024
+# Process ID: 4412
+# Current directory: D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/impl/ip/vivado.log
+# Journal file: D:/dp/zcu106/tpg_dp_live/vivado/tpg_dp_live/tpg_dp_live.runs/bd_85a6_csc_0_synth_1/prj/sol/impl/ip\vivado.jou
+# Running On: DESKTOP-S07ATB7, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34059 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/program/Xilinx2023/Vivado/2023.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 15 11:03:31 2024...

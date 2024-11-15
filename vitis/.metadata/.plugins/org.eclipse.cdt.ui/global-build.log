@@ -1,0 +1,37 @@
+Nothing to build in platform 'mpsoc_preset_wrapper'
+
+13:40:32 **** Build of configuration Debug for project tpg_vpss_dp_live ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/sw/mpsoc_preset_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/xdpdma_video_example.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdpdma_video_example.o" -IC:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/sw/mpsoc_preset_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/xdpdma_video_example.d" -MT"src/xdpdma_video_example.o" -o "src/xdpdma_video_example.o" "../src/xdpdma_video_example.c"
+'Finished building: ../src/xdpdma_video_example.c'
+' '
+'Building file: ../src/xdppsu_interrupt.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdppsu_interrupt.o" -IC:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/sw/mpsoc_preset_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/xdppsu_interrupt.d" -MT"src/xdppsu_interrupt.o" -o "src/xdppsu_interrupt.o" "../src/xdppsu_interrupt.c"
+'Finished building: ../src/xdppsu_interrupt.c'
+' '
+'Building target: tpg_vpss_dp_live.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/sw/mpsoc_preset_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "tpg_vpss_dp_live.elf"  ./src/platform.o ./src/xdpdma_video_example.o ./src/xdppsu_interrupt.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: tpg_vpss_dp_live.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size tpg_vpss_dp_live.elf  |tee "tpg_vpss_dp_live.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 228639	   5568	8462297	8696504	 84b2b8	tpg_vpss_dp_live.elf
+'Finished building: tpg_vpss_dp_live.elf.size'
+' '
+13:40:35 **** Build of configuration Debug for project tpg_vpss_dp_live_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 7337 C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/mpsoc_preset_wrapper.xpfm standalone_psu_cortexa53_0 C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/mpsoc_preset_wrapper/export/mpsoc_preset_wrapper/mpsoc_preset_wrapper.xpfm --sys_config mpsoc_preset_wrapper --bif C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live_system/Debug/system.bif --bitstream C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live/_ide/bitstream/mpsoc_preset_wrapper.bit --elf C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live/Debug/tpg_vpss_dp_live.elf,psu_cortexa53_0
+creating BOOT.BIN using C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live/_ide/bitstream/mpsoc_preset_wrapper.bit
+Running D:/program/Xilinx2023/Vitis/2023.1/bin/bootgen -arch zynqmp -image C:/Users/shen/Downloads/tpg_vpss_dp_live/vitis/tpg_vpss_dp_live_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
